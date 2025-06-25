@@ -31,42 +31,6 @@ O scraper exporta as reflexões diárias em múltiplos formatos:
 
 Todos os arquivos são gerados no diretório `/data`.
 
-## Estrutura do Projeto
-
-```
-src/
-├── index.ts                    # Arquivo principal
-├── scrapers/
-│   └── reflectionScraper.ts    # Scraper unificado para todos os idiomas
-├── exporters/
-│   ├── fileExporter.ts         # Export para arquivos JSON
-│   ├── csvExporter.ts          # Export para planilhas CSV
-│   └── databaseExporter.ts     # Export para banco SQLite
-└── models/
-    └── reflection.ts           # Interface da reflexão
-```
-│   │   ├── fileExporter.ts    # Exports data to files
-│   │   └── databaseExporter.ts # Exports data to a database
-│   ├── models                 # Contains data models
-│   │   └── reflection.ts      # Reflection data structure
-│   ├── utils                  # Utility functions
-│   │   ├── dateHelpers.ts     # Date manipulation functions
-│   │   └── scrapeHelpers.ts    # Scraping helper functions
-│   └── types                  # Type definitions
-│       └── index.ts          # Project types and interfaces
-├── data                       # Directory for storing scraped data
-│   └── .gitkeep               # Keeps the data directory in version control
-├── config                     # Configuration files
-│   └── database.ts            # Database connection configuration
-├── tests                      # Unit tests for the project
-│   ├── scrapers.test.ts       # Tests for scraper classes
-│   └── exporters.test.ts      # Tests for exporter classes
-├── package.json               # NPM configuration file
-├── tsconfig.json              # TypeScript configuration file
-├── jest.config.js             # Jest configuration file
-└── README.md                  # Project documentation
-```
-
 ## Installation
 1. Clone the repository:
    ```
