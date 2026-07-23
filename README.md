@@ -1,6 +1,6 @@
 # AA Daily Reflections Scraper
 
-<img alt="Harness Score L0" src="https://paladini.github.io/harness-score/maturity/badge-l0.svg" height="20">
+<a href="https://paladini.github.io/harness-score/guide/maturity-model#l0-unharnessed" title="Harness Score — AI coding harness maturity"><img alt="Harness Score L0 (Unharnessed): measures AI-assisted development harness maturity with harness-score" src="https://paladini.github.io/harness-score/maturity/badge-l0.svg" height="20"></a>
 ## Overview
 Este projeto utiliza a biblioteca `aa-daily-reflections` para fazer scraping de todas as reflex├Áes di├írias do Alc├│olicos An├┤nimos em ingl├¬s, franc├¬s e espanhol para um ano espec├¡fico.
 
