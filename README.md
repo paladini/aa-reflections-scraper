@@ -1,20 +1,20 @@
-﻿# AA Daily Reflections Scraper
+# AA Daily Reflections Scraper
 
 <img alt="Harness Score L0" src="https://paladini.github.io/harness-score/maturity/badge-l0.svg" height="20">
 ## Overview
-Este projeto utiliza a biblioteca `aa-daily-reflections` para fazer scraping de todas as reflexÃµes diÃ¡rias do AlcÃ³olicos AnÃ´nimos em inglÃªs, francÃªs e espanhol para um ano especÃ­fico.
+Este projeto utiliza a biblioteca `aa-daily-reflections` para fazer scraping de todas as reflex├Áes di├írias do Alc├│olicos An├┤nimos em ingl├¬s, franc├¬s e espanhol para um ano espec├¡fico.
 
-## CaracterÃ­sticas
+## Caracter├¡sticas
 
-- âœ… **Scraper unificado**: Um Ãºnico scraper que aceita diferentes idiomas como parÃ¢metro
-- âœ… **MÃºltiplos formatos de export**: JSON, CSV e SQLite database
-- âœ… **Rate limiting**: Pequenos delays entre requisiÃ§Ãµes para nÃ£o sobrecarregar a API
-- âœ… **Logs detalhados**: Acompanhe o progresso do scraping
-- âœ… **TypeScript**: Totalmente tipado
+- Ô£à **Scraper unificado**: Um ├║nico scraper que aceita diferentes idiomas como par├ómetro
+- Ô£à **M├║ltiplos formatos de export**: JSON, CSV e SQLite database
+- Ô£à **Rate limiting**: Pequenos delays entre requisi├º├Áes para n├úo sobrecarregar a API
+- Ô£à **Logs detalhados**: Acompanhe o progresso do scraping
+- Ô£à **TypeScript**: Totalmente tipado
 
-## ðŸ“„ Formatos de SaÃ­da
+## ­ƒôä Formatos de Sa├¡da
 
-O scraper exporta as reflexÃµes diÃ¡rias em mÃºltiplos formatos:
+O scraper exporta as reflex├Áes di├írias em m├║ltiplos formatos:
 
 ### 1. Arquivos JSON
 - `daily_reflections_YYYY_english.json`
@@ -28,9 +28,9 @@ O scraper exporta as reflexÃµes diÃ¡rias em mÃºltiplos formatos:
 - `daily_reflections_YYYY_all_languages.csv` (arquivo combinado)
 
 ### 3. Banco SQLite
-- `reflections.db` - ContÃ©m todas as reflexÃµes em um banco estruturado
+- `reflections.db` - Cont├®m todas as reflex├Áes em um banco estruturado
 
-Todos os arquivos sÃ£o gerados no diretÃ³rio `/data`.
+Todos os arquivos s├úo gerados no diret├│rio `/data`.
 
 ## Installation
 1. Clone the repository:
