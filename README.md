@@ -1,19 +1,20 @@
-# AA Daily Reflections Scraper
+﻿# AA Daily Reflections Scraper
 
+<img alt="Harness Score L0" src="https://paladini.github.io/harness-score/maturity/badge-l0.svg" height="20">
 ## Overview
-Este projeto utiliza a biblioteca `aa-daily-reflections` para fazer scraping de todas as reflexões diárias do Alcóolicos Anônimos em inglês, francês e espanhol para um ano específico.
+Este projeto utiliza a biblioteca `aa-daily-reflections` para fazer scraping de todas as reflexÃµes diÃ¡rias do AlcÃ³olicos AnÃ´nimos em inglÃªs, francÃªs e espanhol para um ano especÃ­fico.
 
-## Características
+## CaracterÃ­sticas
 
-- ✅ **Scraper unificado**: Um único scraper que aceita diferentes idiomas como parâmetro
-- ✅ **Múltiplos formatos de export**: JSON, CSV e SQLite database
-- ✅ **Rate limiting**: Pequenos delays entre requisições para não sobrecarregar a API
-- ✅ **Logs detalhados**: Acompanhe o progresso do scraping
-- ✅ **TypeScript**: Totalmente tipado
+- âœ… **Scraper unificado**: Um Ãºnico scraper que aceita diferentes idiomas como parÃ¢metro
+- âœ… **MÃºltiplos formatos de export**: JSON, CSV e SQLite database
+- âœ… **Rate limiting**: Pequenos delays entre requisiÃ§Ãµes para nÃ£o sobrecarregar a API
+- âœ… **Logs detalhados**: Acompanhe o progresso do scraping
+- âœ… **TypeScript**: Totalmente tipado
 
-## 📄 Formatos de Saída
+## ðŸ“„ Formatos de SaÃ­da
 
-O scraper exporta as reflexões diárias em múltiplos formatos:
+O scraper exporta as reflexÃµes diÃ¡rias em mÃºltiplos formatos:
 
 ### 1. Arquivos JSON
 - `daily_reflections_YYYY_english.json`
@@ -27,9 +28,9 @@ O scraper exporta as reflexões diárias em múltiplos formatos:
 - `daily_reflections_YYYY_all_languages.csv` (arquivo combinado)
 
 ### 3. Banco SQLite
-- `reflections.db` - Contém todas as reflexões em um banco estruturado
+- `reflections.db` - ContÃ©m todas as reflexÃµes em um banco estruturado
 
-Todos os arquivos são gerados no diretório `/data`.
+Todos os arquivos sÃ£o gerados no diretÃ³rio `/data`.
 
 ## Installation
 1. Clone the repository:
